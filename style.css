@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* .work-sans-<uniquifier> {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    width: 1320px;
+    height: 600px;
+    background:  linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%) , url("images/Banner\ Image.png");
+    background-position: center;
+    background-repeat: no repeat;
+    margin: 50px auto 120px;
+    text-align: center;
+    align-content: center;
+}
+.banner-subtitle{
+    color: white;
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 32px;
+font-weight: 400;
+line-height: 40px;
+text-align: center;
+margin-bottom: 16px;
+}
+.banner-title{
+    color: white;
+    font-family:"Work Sans", serif;
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 95px;
+width: 630px;
+height: 190px;
+margin: auto;
+}
+/* banner complete */
+/* main body start */
+/* section one css start */
+.section-one-container{
+    width: 803px;
+    height: 806px;
+    text-align: center;
+    margin: auto;
+}
+.section-one-offer{
+    font-size:88px ;
+    font-weight: 700px;
+    line-height:107px ; 
+    margin-bottom: 48px;
+    color: red;
+}
+.section-one-subtitle{
+    font-size: 24px;
+    font-weight: 500px;
+    line-height: 29px;
+    margin-bottom: 16px;
+    color: red;
+}
+.section-one-category{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 48px;
+    font-family: sans-serif;
+}
+.section-one-pic{
+    width: 803px;
+    height: 500px;
+    margin-bottom: 120px;
+}
+/* section-one done */
+.section-two{
+    background: 16px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("images/Vectorrr.png");
+    width: 1320px;
+    height: 600px;
+    background-position: center;
+    margin: auto;
+    border-radius: 10px;
+}
+.section-two-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 76px;
+}
+.section-two-title{
+    color: white;
+    width: 662px;
+    height: 176px;
+  
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+}
+.section-two-subtitle{
+    color: rgba(255, 255, 255, 0.8);
+    width: 670px;
+    height: 60px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 24px;
+
+}
+.section-tow-btn{
+   margin-top: 48px;
+   margin-left: 50px;
+}
+.join-now-btn{
+    color: white;
+    background:none;
+    border: none;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.section-two-2024{
+    margin-top: 76px;
+    margin-left: 40px;
+}
+/* section css done */
+/* section three start */
+.section-three{
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    width: 1320px;
+    height: 482px;
+    margin: 120px auto 0px;
+    border-radius: 16px;
+    text-align: center;
+    align-content: center;
+}
+span{
+    color: red;
+}
+.address{
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+font-family: sans-serif;
+letter-spacing: 0;
+}
+
+.section-three-join{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: red;
+    padding: 16px 32px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 48px;
+}
